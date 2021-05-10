@@ -74,21 +74,43 @@ img {
 
 @media screen and (max-width:420px){
 
+  /* commons */
+
   body{
     margin: 0;
+    font-size: 10px;
+  }
+  
+  .row{
+    width: 95%;
+    margin: 0 auto 10px auto;
   }
 
-  #lezioni{
-    background-color: #f2f2cd;
+  h1{
+    margin: 0 auto;
+    font-size: 24px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+  }
+
+  h3{
+    margin: 0 auto;
+    font-size: 16px;
+  }
+
+  img{
+    height: 100px;
   }
 
   .row::after{
     display: none;
   }
+  
 
-  .row{
-    width: 90%;
-    margin: 0 auto 10px auto;
+  /* lezioni dove vuoi tu */
+
+  #lezioni{
+    background-color: #f2f2cd;
   }
 
   #lezioni .row>.left, #lezioni .row>.right {
@@ -98,15 +120,22 @@ img {
     padding-bottom: 10px;
   }
 
-  #lezioni .row img{
-    height: 100px;
+
+  /* come funziona */
+
+  .container.grey {
+    background-color:unset;
   }
 
-  h1{
-    margin: 0 auto;
+  #steps .row>.left, #steps .row>.central, #steps .row>.right {
+    float: left;
+    width: 100%;
+    margin-bottom: 20px;
   }
 
-  h3{
-    margin: 0 auto;
-  }
+  
+  /* perchè cademi */
+
+  
+
 }

@@ -81,16 +81,30 @@ img {
     font-size: 10px;
   }
   
+  .container.grey {
+    background-color:unset;
+  }
+
   .row{
     width: 95%;
-    margin: 0 auto 10px auto;
+    margin: 0 auto;
+    padding-bottom: 10px;
+  }
+
+  #lezioni .row>.left, #lezioni .row>.right, #steps .row>.left, #steps .row>.right, #steps .row>.central {
+    width: 100%;
+    float: none;
+    padding-top: 10px;
+  }
+
+  .row .right{
+    margin-bottom: 0px;
   }
 
   h1{
     margin: 0 auto;
     font-size: 24px;
     padding-top: 5px;
-    padding-bottom: 10px;
   }
 
   h3{
@@ -113,29 +127,19 @@ img {
     background-color: #f2f2cd;
   }
 
-  #lezioni .row>.left, #lezioni .row>.right {
-    width: 100%;
-    float: none;
-    margin-bottom: 10px;
-    padding-bottom: 10px;
-  }
-
-
-  /* come funziona */
-
-  .container.grey {
-    background-color:unset;
-  }
-
-  #steps .row>.left, #steps .row>.central, #steps .row>.right {
-    float: left;
-    width: 100%;
-    margin-bottom: 20px;
-  }
-
   
   /* perchè cademi */
 
-  
+  #why .row img {
+    height: 50px;
+  }
+
+  #why{
+    background-color: #f2f2cd;
+  }
+
+  #why .row>.first, #why .row>.second, #why .row> .third {
+    margin-top: 10px;
+  }
 
 }
